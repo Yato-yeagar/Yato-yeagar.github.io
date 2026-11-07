@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Yato</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #2d3748;
+      background-color: #f7fafc;
+      padding: 20px 15px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+    }
+
+    header {
+      background-color: #1a202c;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #cbd5e0;
+      margin-bottom: 4px;
+    }
+
+    header .phrase {
+      margin-top: 12px;
+      font-style: italic;
+      color: #e2e8f0;
+    }
+
+    main {
+      padding: 30px 20px;
+    }
+
+    .project-section h2 {
+      font-size: 1.4rem;
+      color: #2b6cb0;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+
+    @media (min-width: 600px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .card {
+      background-color: #edf2f7;
+      border-left: 4px solid #3182ce;
+      padding: 15px;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      color: #2d3748;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #4a5568;
+    }
+
+    footer {
+      background-color: #edf2f7;
+      border-top: 1px solid #e2e8f0;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    footer h3 {
+      margin-bottom: 10px;
+      color: #2d3748;
+    }
+
+    footer p {
+      margin-bottom: 6px;
+      word-break: break-all;
+    }
+
+    footer a {
+      color: #3182ce;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Yato</h1>
+      <p>Curso: Ciência de Dados</p>
+      <p>Faculdade: FATEC ADAMANTINA - Curso de Ciência de Dados</p>
+      <p class="phrase">"Programar"</p>
+    </header>
+
+    <main>
+      <section class="project-section">
+        <h2>Projeto: Primeiro Projeto</h2>
+        
+        <div class="grid">
+          <div class="card">
+            <h3>Problema</h3>
+            <p>Como ingressar no mercado de trabalho</p>
+          </div>
+
+          <div class="card">
+            <h3>O que eu fiz</h3>
+            <p>oficina</p>
+          </div>
+
+          <div class="card">
+            <h3>Como eu fiz</h3>
+            <p>github, palestra</p>
+          </div>
+
+          <div class="card">
+            <h3>Resultado</h3>
+            <p>Primeiro site na web</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h3>Contato</h3>
+      <p>E-mail: <a href="mailto:juniorpussopp@gmail.com">juniorpussopp@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/[seu-usuario]" target="_blank" rel="noopener noreferrer">https://github.com/[seu-usuario]</a></p>
+    </footer>
+  </div>
+
+</body>
+</html>
